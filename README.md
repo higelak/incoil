@@ -1,16 +1,16 @@
-# incoil
+# incoil [![License](https://github.com/higelak/incoil/blob/main/LICENSE)]
 Instance counter and once initializator
 
+## Description
 Incoil is a small header for organizing a class instance counter.
 
 It also allows you to implement initialization when creating the first instance of a class and deinitialization when deleting the last instance. 
 It is provided that if initialization is not successful, then the class instance is deleted.
 
-
 See example.cpp for undestanding.
 
-Example output: 
-
+## Example output
+```bash
 [CurlClass] ctor...
 Init [CurlClass]...
 [CurlClass] ctor...
@@ -42,3 +42,4 @@ Shutdown [SomeClass]...
 [CurlClass] dtor...
 Shutdown [CurlClass]...
 [CurlClass] dtor...
+```
