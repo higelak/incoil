@@ -4,7 +4,10 @@
 #include <mutex>
 #include <functional>
 
-// Instance counter class
+/*!
+	\brief Instance counter class
+	Class for organizing instance counting
+*/
 template<typename T>
 class Countable {
 public:
@@ -27,7 +30,10 @@ private:
 template<typename T>
 std::atomic_size_t Countable<T>::m_instance_count = 0;
 
-// Instance initializator class
+/*!
+	\brief Instance initializator factory
+	Template base abstract factory for creating and initializing the first object to be created and deinitializing the last one to be deleted
+*/
 class OnceInit {
 public:
     virtual ~OnceInit() = default;
