@@ -1,6 +1,12 @@
 # incoil [![GitHub](https://img.shields.io/github/license/higelak/incoil)](https://github.com/higelak/incoil/blob/main/LICENSE)
 Instance counter and once initializator
 
+## Building incoil
+I use [premake5](http://premake.github.io/) to build solution and project files. Download it and make sure it's available on your path, or specify the path to it. Execute command:
+```bash
+premake5 vs2022
+```
+
 ## Description
 Incoil is a small header for organizing a class instance counter.
 
