@@ -1,4 +1,4 @@
-# incoil [![License](https://github.com/higelak/incoil/blob/main/LICENSE)]
+# incoil [![GitHub](https://img.shields.io/github/license/higelak/incoil)](https://github.com/higelak/incoil/blob/main/LICENSE)
 Instance counter and once initializator
 
 ## Description
